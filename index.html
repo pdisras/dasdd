@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Mis Envíos Express – DHL / FEDEX / UPS</title>
+    <!-- Stylesheets -->
+    <!-- bootstrap v3.3.6 css -->
+    <link rel="preload" href="css/bootstrap.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="css/bootstrap.css"></noscript>
+    <!-- font-awesome css -->
+    <link rel="preload" href="css/font-awesome.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="css/font-awesome.css"></noscript>
+    <!-- flaticon css -->
+    <link href="css/flaticon.css" rel="stylesheet">
+    <!-- flaticon for second version -->
+    <link href="flaticon-second-version/flaticon.css" rel="stylesheet">
+    <!-- factoryplus-icons css -->
+    <link href="css/factoryplus-icons.css" rel="stylesheet">
+    <!-- animate css -->
+    <link rel="preload" href="css/animate.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="css/animate.css"></noscript>
+
+    <!-- owl.carousel css -->
+    <link href="css/owl.css" rel="stylesheet">
+    <!-- fancybox css -->
+    <link href="css/jquery.fancybox.css" rel="stylesheet">
+
+    <link rel="preload" href="css/hover.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="css/hover.css"></noscript>
+
+    <link href="css/frontend.css" rel="stylesheet">
+
+    <link rel="preload" href="css/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="css/style.css"></noscript>
+    <!-- switcher css -->
+    <link href="css/switcher.css" rel="stylesheet">
+    <link href="css/switcher/orangehome.css" rel="stylesheet">
+    <link rel='stylesheet' id='factoryhub-color-switcher-css' href='css/switcher/default.css' />
+    <!-- revolution slider css -->
+    <link rel="stylesheet" type="text/css" href="css/revolution/settings.css">
+
+    <link rel="preload" href="css/revolution/layers.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="css/revolution/layers.css"></noscript>
+    <link rel="stylesheet" type="text/css" href="css/revolution/navigation.css">
+
+    <link rel="preload" href="css/cotizador.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="css/cotizador.css"></noscript>
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="images/Screen Shot 2020-05-18 at 12.40.47 PM.webp" type="image/x-icon">
+    <link rel="icon" href="images/Screen Shot 2020-05-18 at 12.40.47 PM.webp" type="image/x-icon">
+    <!-- Responsive -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="preload" href="css/responsive.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="css/responsive.css"></noscript>
+
+	<meta name="facebook-domain-verification" content="lki8smymyua50x7j3zuyafyp2tw8qh" />
+
+    <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
+    <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RCB9XEJQK8"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-RCB9XEJQK8');
+    </script>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-MBVJWZ5');</script>
+    <!-- End Google Tag Manager -->
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+            n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t,s)}(window,document,'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '231013986112697');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1"
+             src="https://www.facebook.com/tr?id=231013986112697&ev=PageView
+&noscript=1"/>
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T7S42X89RF"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-T7S42X89RF');
+    </script>
+</head>
+
+<body class="home header-sticky header-v3 hide-topbar-mobile">
+<!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBVJWZ5"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+    <div id="page">
+
+        <!-- Preloader-->
+        <div class="preloader"></div>
+
+        <!-- topbar -->
+        <div id="fh-header-minimized" class="fh-header-minimized fh-header-v3"></div>
+
+        <!-- topbar end -->
+
+        <!-- masthead -->
+        <header id="masthead" class="site-header clearfix">
+            <div class="header-main clearfix">
+                <div class="site-contact menu_responsive">
+                    <div class="container mobile_relative">
+                        <div style="height: 90px; width: 90px;float: left;">
+                            <center style="height: 90px; width: 90px;">
+                                <img src="images/misenvios.webp">
+                            </center>
+                        </div>
+                        <a href="#" class="navbar-toggle">
+                            <span class="navbar-icon">
+                                <span class="navbars-line"></span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div id="menu" class="site-menu">
+                    <div style="height: 90px; width: 90px;float: left;">
+                        <center style="height: 90px; width: 90px;">
+                            <div class="mundo"></div>
+                        </center>
+                        <center style="height: 90px; width: 90px;">
+                            <div class="top"></div>
+                        </center>
+                    </div>
+                    <div> </div>
+        </header>
+        <!-- masthead end -->
+        <div class="carousel fade-carousel slide" data-ride="carousel" data-interval="6000" id="bs-carousel">
+            <!-- Overlay -->
+            <div class="overlay"></div>
+
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#bs-carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#bs-carousel" data-slide-to="1"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner carrousel_inner">
+                <div class="item slides active">
+                    <div class="slide-1"></div>
+                    <div class="hero">
+                        <hgroup>
+                            <h2 class="hero_text">AMPLIA COBERTURA</h2>
+                            <h2 class="hero_text">ASESORÍA LOGÍSTICA Y ADUANERA</h2>
+                            <h6 class="hero_text_2 hero_text_h6">Llegamos a toda Colombia y a más de 190 países en el
+                                mundo</h6>
+                            <h6 class="hero_text_h6">Ayudamos a que conozcas los requisitos en origen/destino que tu
+                                paquete necesita.</h6>
+                        </hgroup>
+                        <div class="btn hero_button">
+                            <a href="cotizador.html" class="btn btn-hero btn-lg btn_home_slider" target="_blank">
+                                Cotiza tu envío
+                            </a>
+                            <a href="rastrea.html" class="btn btn-hero btn-lg ml_btn btn_home_slider_2" target="_blank">
+                                Rastrea tu paquete
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item slides">
+                    <div class="slide-2"></div>
+                    <div class="hero">
+                        <hgroup>
+                            <h2 class="hero_text">SIMPLIFICACIÓN LOGÍSTICA,</h2>
+                            <h2 class="hero_text">TARIFAS COMPETITIVAS</h2>
+                            <h6 class="hero_text_2 hero_text_h6">El servicio de FedEx – DHL – UPS – 472 y Deprisa en un
+                                solo lugar</h6>
+                        </hgroup>
+                        <div class="btn hero_button">
+                            <a href="cotizador.html" class="btn btn-hero btn-lg btn_home_slider" target="_blank">
+                                Cotiza tu envío
+                            </a>
+                            <a href="rastrea.html" class="btn btn-hero btn-lg ml_btn btn_home_slider_2" target="_blank">
+                                Rastrea tu paquete
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Main Slider-->
+
+        <!--Main Slider  end-->
+
+        <!-- Services sec -->
+
+        <!-- Services sec   end-->
+
+        <!-- special services -->
+        <section class="special_services secpadd" style="background: white;">
+            <div class="container">
+                <div class="row paddbtm40">
+                    <div class="col-md-4 col-sm-12">
+                        <div class="fh-section-title clearfix  text-left version-light">
+                            <h2 style="color:black !important;">NUESTROS SERVICIOS</h2>
+                        </div>
+                    </div>
+                    <div class="col-md-8 col-sm-12">
+                        <div class="hdrgtpara lftredbrdr" style="color:black !important;">
+                            <p>
+                                Mis Envíos Express es un centro de envíos autorizado de mensajería, paquetería y carga
+                                nacional e
+                                internacional que ha desarrollado una alianza estratégica con transportadoras
+                                reconocidas para
+                                brindar opciones logísticas enfocadas en la necesidad del cliente.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-sm-12">
+                        <div class="fh-service-box icon-type-theme_icon style-1">
+                            <span class="fh-icon">
+                                <!-- <i class="flaticon-open-cardboard-box"></i> -->
+                                <!-- <img src="./images/1.svg" alt=""> -->
+                                <i class="flaticon-tierra"></i>
+                            </span>
+                            <h4 class="service-title"><a href="#" class="link" target="_blank">ENCOMIENDAS
+                                    INTERNACIONALES</a></h4>
+                            <div class="desc">
+                                <p>
+                                    Envía documentos, muestras, regalos, paquetes, y más… a cualquier rincón del mundo.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="fh-service-box icon-type-theme_icon style-1">
+                            <span class="fh-icon"><i class="flaticon-buildings"></i></span>
+                            <h4 class="service-title"><a href="#" class="link" target="_blank">CASILLERO
+                                    INTERNACIONAL</a></h4>
+                            <div class="desc">
+                                <p>Servicio de bodega en USA para que puedas comprar en línea y traer todo eso a
+                                    Colombia, con tránsito de 5 días hábiles. Rastrea tu envío, consolida tus compras y
+                                    obtén una excelente tarifa
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <div class="fh-service-box icon-type-theme_icon style-1">
+                            <!-- <span class="fh-icon"><img src="./images/2.svg" alt=""></span> -->
+                            <span class="fh-icon">
+                                <i class="flaticon-smartphone"></i>
+                            </span>
+                            <h4 class="service-title"><a href="#" class="link" target="_blank">ENVIOS E-COMMERCE</a>
+                            </h4>
+                            <div class="desc">
+                                <p>Te ofrecemos tarifas especiales y muy competitivas para que tu producto pueda llegar
+                                    a cualquier continente. Manejamos tiempos de tránsito de 1 a 6 días hábiles
+                                    (dependiendo del destino)
+                                    <br>
+                                    <br>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="fh-service-box icon-type-theme_icon style-1">
+                            <span class="fh-icon"><i class="flaticon-medal-2"></i></span>
+                            <h4 class="service-title"><a href="#" class="link" target="_blank">AULA VIRTUAL DE
+                                    LOGÍSTICA</a></h4>
+                            <div class="desc">
+                                <p>
+                                    Te ofrecemos cursos de logística y negocios en nuestra aula virtual para que estés
+                                    en constante aprendizaje y tu negocio pueda llegar más lejos. Nos preocupamos por ti
+                                    y buscamos ser siempre tu mejor opción.
+                                    <br>
+                                    <br>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <div class="fh-service-box icon-type-theme_icon style-1">
+                            <!-- <span class="fh-icon"><img src="./images/3.svg" alt=""></span> -->
+                            <span class="fh-icon">
+                                <i class="flaticon-avion"></i>
+                            </span>
+                            <h4 class="service-title"><a href="#" class="link" target="_blank">IMPORTACIONES A
+                                    COLOMBIA</a></h4>
+                            <div class="desc">
+                                <p>
+                                    Traemos tus productos desde cualquier país, coordinando directamente todos los
+                                    procesos y entregándote en la puerta de tu casa. Manejamos la modalidad de “Envío
+                                    urgente” y Carga dependiendo de lo que necesites.
+                                    <br>
+                                    <br>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="fh-service-box icon-type-theme_icon style-1">
+                            <span class="fh-icon"><i class="flaticon-shield-1"></i></span>
+                            <h4 class="service-title"><a href="#" class="link" target="_blank">TIENDA EN LINEA</a></h4>
+                            <div class="desc">
+                                <p>
+                                    Tenemos una página web en la que puedes exhibir tus productos y así tener tu “tienda
+                                    en línea”. Puedes convertir tu negocio en e-Commerce sin necesidad de administrar o
+                                    crear tu propio sitio web. ¡Te facilitamos la vida!
+                                    <br>
+                                    <br>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- special services end -->
+
+        <!--home counters -->
+        <section class="homecounts" style="background: white">
+            <div class="container">
+                <h2 class="count-title" style="color:black !important;">En <span class="main-color">Mis Envios
+                        Express</span> trabajamos fuertemente para brindarte el mejor servicio. </h2>
+
+                <div class="row">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="fh-counter icon-type-none" style="color: #bc0000">
+                            <span class="fh-icon"><i class="flaticon-business-1"></i></span>
+                            <div class="counter">
+                                <div class="value">1500</div>
+                                <h4>Paquetes en movimiento cada mes</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="fh-counter icon-type-none" style="color: #bc0000">
+                            <span class="fh-icon"><i class="flaticon-global"></i></span>
+                            <div class="counter">
+                                <div class="value">80</div>
+                                <h4>Empresas nos delegan sus operaciones logísticas</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="fh-counter icon-type-none" style="color: #bc0000">
+                            <span class="fh-icon"><i class="flaticon-people-3"></i></span>
+                            <div class="counter">
+                                <div class="value">97 %</div>
+                                <h4>Feedback positivo</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--home counters end -->
+        <!--Request a Quote end -->
+        <div class="modal fade" id="modalPagar" role="dialog" style="padding-top: 70px;">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title main-color">Estimado Cliente:</h4>
+                    </div>
+                    <div class="modal-body">
+                        Por medio del decreto 462 del 22 de marzo de 2020, queda prohibido el envío internacional
+                        (exportación) de productos necesarios para afrontar la emergencia sanitaria provocada por el
+                        COVID-19 tales como:
+                        <ul>
+                            <li> Tapabocas y mascarillas desechables</li>
+                            <li> Geles antibacteriales</li>
+                            <li>Jabón de manos,desinfectante y cremas antibacteriales</li>
+                            <li>Temómetros y demás equipos médicos contemplados en las partidas del decreto</li>
+                            <li> Guantes, mitones y manoplas</li>
+                            <li>Medicamentos (solo algunos contemplados en el decreto)</li>
+                            <li> Alcohol y derivados</li>
+                            <li>Papel higiénico, toallas para desmaquillar, servilletas y demás papeles de aseo</li>
+                        </ul>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Aceptar</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!--Request a Quote-->
+        <section class="whychoose-1 secpadd">
+            <div class="container">
+                <div class="row quote1top">
+                    <div class="col-12">
+                        <div class="fh-section-title clearfix f30  text-center version-dark paddbtm40">
+                            <h2>ASESORÍA PERSONALIZADA</h2>
+                        </div>
+                        <p class="text-center p_text_home">
+                            Si tienes alguna duda o inquietud sobre nuestros servicios, contáctanos a través de esta
+                            sección o cualquiera de nuestros canales disponibles.
+                        </p>
+                    </div>
+                    <div class="col-sm-4">
+
+                    </div>
+                </div>
+                <div class="quote1forms">
+                    <div class="preloader" id="cargandoMensaje"></div>
+                    <form id="formMensaje">
+                        <div class="fh-form request-form">
+                            <div class="row">
+                                <div class="col-md-6 padding_contact">
+                                    <div class="row">
+                                        <label>Nombres<span class="require">*</span></label>
+                                        <input placeholder="Nombres" type="text" id="nombre" name="nombre">
+                                    </div>
+                                    <div class="row mt-2">
+                                        <label>Apellidos<span class="require">*</span></label>
+                                        <input placeholder="Apeliidos" type="text" id="apellido" name="apellido">
+                                    </div>
+                                    <div class="row mt-2">
+                                        <label>Correo electronico<span class="require">*</span></label>
+                                        <input placeholder="Correo electronico" type="email" id="correo" name="correo">
+                                    </div>
+                                    <div class="row mt-2">
+                                        <label>Asunto</label>
+                                        <input type="text" id="asunto" name="asunto">
+                                    </div>
+                                    <div class="row mt-2">
+                                        <label>TU MENSAJE</label>
+                                        <textarea id="mensaje" name="mensaje"></textarea>
+                                    </div>
+                                    <div class="row mt-2 text-center">
+                                        <input value="Enviar" class="fh-btn" type="button" id="enviarMensaje">
+                                    </div>
+                                </div>
+                                <div class="col-md-6 padding_contact">
+                                    <div class="row row_contact mt-4">
+                                        <div class="col-md-2">
+                                            <div class="circle_contact">
+                                                <i class="fa fa-map-marker icon_contact"></i>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-10">
+                                            <h3 class="f_text_contact">Encuentra nuestro punto de venta más cercano</h3>
+                                            <div class="text_contact">
+                                                <span class="text_contact_1">BOGOTÁ</span>
+                                                <div class="text_contact_wrapper">
+                                                    <span class="text_contact_wrapper_span">-</span>
+                                                    <div class="text_contact_wrapper_div">
+                                                        <span class="text_contact_1">Oficina Principal - Ciudad Salitre:</span>
+                                                        <span class="text_contact_2">Carrera 69 #25B-44, Local 102-A</span>
+                                                        <span class="text_contact_2"><b>Tel:</b> (601) 571 8207 / 300 200 8044</span>
+                                                    </div>
+                                                </div>
+                                                <div class="text_contact_wrapper">
+                                                    <span class="text_contact_wrapper_span">-</span>
+                                                    <div class="text_contact_wrapper_div">
+                                                        <span class="text_contact_1">Sede Cedritos:</span>
+                                                        <span class="text_contact_2">Calle 142 # 18A - 44. Local 3</span>
+                                                        <span class="text_contact_2"><b>Tel:</b> (601) 457 6445 / 319 672 6934</span>
+                                                    </div>
+                                                </div>
+                                                <div class="text_contact_wrapper">
+                                                    <span class="text_contact_wrapper_span">-</span>
+                                                    <div class="text_contact_wrapper_div">
+                                                        <span class="text_contact_1">Sede Calle 80 / (Minuto de Dios):</span>
+                                                        <span class="text_contact_2">Av Calle 80 # 75 - 32</span>
+                                                        <span class="text_contact_2"><b>Tel:</b> 305 461 8499 </span>
+                                                    </div>
+                                                </div>
+                                                <div class="text_contact_wrapper">
+                                                    <span class="text_contact_wrapper_span">-</span>
+                                                    <div class="text_contact_wrapper_div">
+                                                        <span class="text_contact_1">Sede Iserra 100:</span>
+                                                        <span class="text_contact_2">Cra 54 # 98a - 59</span>
+                                                        <span class="text_contact_2"><b>Tel:</b> 323 766 6777 </span>
+                                                    </div>
+                                                </div>
+                                                <div class="text_contact_wrapper">
+                                                    <span class="text_contact_wrapper_span">-</span>
+                                                    <div class="text_contact_wrapper_div">
+                                                        <span class="text_contact_1">Sede Restrepo:</span>
+                                                        <span class="text_contact_2">Carrera 24 # 19 – 22 Sur</span>
+                                                        <span class="text_contact_2"><b>Tel:</b> (601) 568 6293 / 304 257 6195 </span>
+                                                    </div>
+                                                </div>
+                                                <div class="text_contact_wrapper">
+                                                    <span class="text_contact_wrapper_span">-</span>
+                                                    <div class="text_contact_wrapper_div">
+                                                        <span class="text_contact_1">Sede Chicó:</span>
+                                                        <span class="text_contact_2">Cra 11 # 95 - 07</span>
+                                                        <span class="text_contact_2"><b>Tel:</b> 322 893 3206 </span>
+                                                    </div>
+                                                </div>
+                                                <span class="text_contact_1">MEDELLÍN</span>
+                                                <div class="text_contact_wrapper">
+                                                    <span class="text_contact_wrapper_span">-</span>
+                                                    <div class="text_contact_wrapper_div">
+                                                        <span class="text_contact_1">Sede San Juan:</span>
+                                                        <span class="text_contact_2">Calle 44 # 79 - 53</span>
+                                                        <span class="text_contact_2"><b>Tel:</b> (604) 589 8069 / 320 554 0984</span>
+                                                    </div>
+                                                </div>
+                                                <div class="text_contact_wrapper">
+                                                    <span class="text_contact_wrapper_span">-</span>
+                                                    <div class="text_contact_wrapper_div">
+                                                        <span class="text_contact_1">Sede Bolivariana (Unicentro):</span>
+                                                        <span class="text_contact_2">Calle 39 # 66A - 92 esquina</span>
+                                                        <span class="text_contact_2"><b>Tel:</b> 324 432 9608</span>
+                                                    </div>
+                                                </div>
+                                                <span class="text_contact_1">BARRANQUILLA</span>
+                                                <div class="text_contact_wrapper">
+                                                    <span class="text_contact_wrapper_span">-</span>
+                                                    <div class="text_contact_wrapper_div">
+                                                        <span class="text_contact_1">Sede Calle 84:</span>
+                                                        <span class="text_contact_2">Calle 84 #43-27</span>
+                                                        <span class="text_contact_2"><b>Tel:</b> (605) 331 2374 / 305 230 9770</span>
+                                                    </div>
+                                                </div>
+                                                <span class="text_contact_1">PEREIRA</span>
+                                                <div class="text_contact_wrapper">
+                                                    <span class="text_contact_wrapper_span">-</span>
+                                                    <div class="text_contact_wrapper_div">
+                                                        <span class="text_contact_1">Sede Pereira Plaza:</span>
+                                                        <span class="text_contact_2">Calle 16 # 14 - 52</span>
+                                                        <span class="text_contact_2"><b>Tel:</b> (606) 348 6578 / 305 380 6266</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row row_contact mt-4">
+                                        <div class="col-md-2">
+                                            <div class="circle_contact">
+                                                <i class="fa fa-envelope-o icon_contact"></i>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-10">
+                                            <h3 class="f_text_contact">Para felicitaciones o PQRs</h3>
+                                            <div class="text_contact">
+                                                <span class="text_contact_2">gerencia@misenviosexpress.com</span>
+                                            </div>
+                                        </div>
+                                    </div>
+<!--                                    <div class="row row_contact mt-4">-->
+<!--                                        <div class="col-md-2">-->
+<!--                                            <div class="circle_contact">-->
+<!--                                                <i class="fa fa-phone icon_contact"></i>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                        <div class="col-md-10">-->
+<!--                                            <h3 class="f_text_contact">¡Llámanos!</h3>-->
+<!--                                            <div class="text_contact">-->
+<!--                                                <span class="text_contact_1">Bogotá:</span>-->
+<!--                                                <span class="text_contact_2">Fijo (1) 5718207 - Celular 300 200-->
+<!--                                                    8044</span>-->
+<!--                                                <span class="text_contact_3">Medellín:</span>-->
+<!--                                                <span class="text_contact_4">Fijo (4) 408 4891 - Celular 314 786-->
+<!--                                                    2250</span>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!--testimonials
+   <section class="testmonial-1">
+        <div class="fh-testimonials-carousel fh-testimonials column-1">
+            <div class="testi-list  single-slide">
+                <div class="testi-wrapper" style="background-image:url(images/Image-1-4.jpeg)">
+                    <div class="container">
+                        <div class="testi-item">
+                            <span class="testi-icon"><i class="flaticon-quotations "></i></span>
+                            <div class="testi-content">
+                                <div class="info clearfix">
+                                    <span class="testi-job" style="font-size: 26px;">Transporte multimodal China-Colombia</span>
+                                </div>
+                                <div class="testi-des">Logramos atender una necesidad especial de un cliente en Villavicencio para su negocio de “Animal Rides”. Importación desde Shenzhen bajo la modalidad “Multimodal”, es decir: Marítima desde Shenzhen hasta Los Angeles, luego Terrestre desde Los Angeles hasta Miami y finalmente aérea desde Miami hasta Bogotá. El éxito de la operación radicó en la asesoría logística brindada para traerlos de acuerdo a la urgencia que se tenía y la reducción notable de costos.</div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testi-wrapper" style="background-image:url(images/Image-1.jpeg)">
+                    <div class="container">
+                        <div class="testi-item">
+                            <span class="testi-icon"><i class="flaticon-quotations "></i></span>
+                            <div class="testi-content">
+                                <div class="info clearfix">
+                                    <span class="testi-job" style="font-size: 26px;">280 kg hasta Barranquilla</span>
+                                </div>
+                                <div class="testi-des">Cada producto necesita ciertos requisitos especiales para llegar o salir de un país. En este caso y con la documentación necesaria, importamos más de 200 unidades de shampoos desde Estados Unidos bajo la modalidad aérea, con servicio de nacionalización (Descargue directo) en Bogotá y continuación de viaje hasta Barranquilla.</div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testi-wrapper" style="background-image:url(images/Image-1-1.jpeg)">
+                    <div class="container">
+                        <div class="testi-item">
+                            <span class="testi-icon"><i class="flaticon-quotations "></i></span>
+                            <div class="testi-content">
+                                <div class="info clearfix">
+                                    <span class="testi-job" style="font-size: 26px;">658 kg a USA</span>
+                                </div>
+                                <div class="testi-des">En muchos casos, nuestros clientes necesitan enviar cosas con suma urgencia pero con tarifas exclusivas. En este caso enviamos publicidad a Nebraska (que sumaban 658 kg) con un tiempo de tránsito de 2 días hábiles y de forma confirmada por el mismo remitente, con la mejor tarifa del mercado.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+   testimonilas-->
+
+        <!--news -->
+
+        <!--news ends -->
+
+        <!--news -->
+        <section class="stripcontact">
+            <div class="container">
+                <p>Mis Envíos Express es una empresa de envíos Multimarca</p>
+                <a href="cotizador.html"
+                    class="fh-button button button-type-bordered align-right button-color-white">COTIZA TU ENVÍO!</a>
+            </div>
+        </section>
+        <div id='contenedor'></div>
+        <div class="google-map-area">
+            <div class="google-map" id="contact-google-map" data-map-lat="4.65746899" data-map-lng="-74.1073287"
+                data-icon-path="images/cropped-PNG-PARA-WEB-1-iloveimg-resized.webp" data-map-title="Chester"
+                data-map-zoom="12" data-markers='{
+							"marker-1": [4.65746899, -74.1073287, "<h4>Carrera 69 #25B - 44, Local 102A</h4><p>Oficina Principal</p>"],
+							"marker-2": [4.5854809, -74.1044097, "<h4>Carrera 24 # 19 – 22 Sur</h4><p>Sede Restrepo</p>"],
+							"marker-3": [4.724166, -74.045782, "<h4>Calle 142 # 18A - 44. Local 3</h4><p>Sede Cedritos</p>"],
+							"marker-4": [4.697513, -74.092643, "<h4>Av Calle 80 # 75 - 32</h4><p>Sede Calle 80 / (Minuto de Dios)</p>"],
+							"marker-5": [4.6880686,-74.0650747, "<h4>Cra 54 # 98a - 59</h4><p>Sede Iserra 100:</p>"],
+							"marker-6": [4.6788506,-74.0466728, "<h4>Cra 11 # 95 - 07</h4><p>Sede Chicó</p>"]
+						}' style="height:650px;width:100%;">
+            </div>
+        </div>
+        <!--footer sec-->
+        <div class="footer-widgets widgets-area">
+            <div class="footer-sidebars">
+                <div class="container">
+                    <div class="row">
+                        <div class="footer-sidebar footer-1 col-xs-12 col-sm-6 col-md-12">
+                            <div class="widget widget_text">
+                                <h4 class="widget-title">Acerca de nosostros</h4>
+                                <div class="textwidget">
+                                    <p>
+                                        Mis Envíos Express es un centro de envíos autorizado de mensajería, paquetería y
+                                        carga nacional e internacional que ha desarrollado una alianza estratégica con
+                                        transportadoras reconocidas para brindar opciones logísticas enfocadas en la
+                                        necesidad del cliente.
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- <div class="widget cargohub-social-links-widget">
+                            <div class="list-social style-2">
+                                <a href="https://www.facebook.com/misenviosexpress/?hc_ref=ARQnmGjWJB9e9Tv8j-yQezw-ZEHWIUUnNu4RSaMmFdOAxo_tNLq2fnzQUxx6m3Imu4U&fref=nf" target="_blank"><i class="fa fa-facebook"></i></a>
+                                <a href="https://www.instagram.com/misenvios_express/" target="_blank"><i class="fa fa-instagram"></i></a>
+                            </div>
+                        </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--footer sec end-->
+
+        <!--copyright sec-->
+        <footer class="site-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-copyright col-md-6 col-sm-12 col-sx-12">
+                        <div class="site-info">Copyright @ 2024 <a href="index.html">MisEnviosExpres</a></div>
+                    </div>
+                    <div class="col-md-6 col-sm-12 col-xs-12 text-right footer-text"><a href="cotizador.html">Cotiza tu
+                            envio!</a> </div>
+                </div>
+            </div>
+        </footer>
+        <!--copyright sec end-->
+    </div>
+    <!--End pagewrapper-->
+
+    <!--primary-mobile-nav-->
+    <div class="primary-mobile-nav header-v1" id="primary-mobile-nav" role="navigation">
+    </div>
+    <div id="off-canvas-layer" class="off-canvas-layer"></div>
+    <!--primary-mobile-nav end-->
+
+    <!--Scroll to top-->
+    <!-- <a id="scroll-top" class="backtotop" href="#page-top"><i class="fa fa-angle-up"></i></a> -->
+
+
+    <!-- jquery Liabrary -->
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <!-- bootstrap v3.3.6 js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- fancybox js -->
+    <script src="js/jquery.fancybox.pack.js"></script>
+    <script src="js/jquery.fancybox-media.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <!-- owl.carousel js -->
+    <script src="js/owl.js"></script>
+    <!-- counter js -->
+    <script src="js/jquery.appear.js"></script>
+    <script src="js/jquery.countTo.js"></script>
+    <!-- validate js -->
+    <script src="js/validate.js"></script>
+    <!-- switcher js -->
+    <script src="js/switcher.js"></script>
+
+    <!-- google map -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBxjsq1CIct_zk9_x6cuY-4zxSE0yphh4k"></script>
+    <script src="js/gmap.js"></script>
+    <script src="js/map-helper.js"></script>
+
+    <!--<script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>-->
+    <!--<script src="https://www.gstatic.com/firebasejs/4.12.1/firebase-firestore.js"></script>-->
+
+
+    <!-- REVOLUTION JS FILES -->
+<!--    <script type="text/javascript" src="js/revolution/jquery.themepunch.tools.min.js"></script>-->
+<!--    <script type="text/javascript" src="js/revolution/jquery.themepunch.revolution.min.js"></script>-->
+<!--    <script type="text/javascript" src="js/revolution/extensions/revolution.extension.actions.min.js"></script>-->
+<!--    <script type="text/javascript" src="js/revolution/extensions/revolution.extension.carousel.min.js"></script>-->
+<!--    <script type="text/javascript" src="js/revolution/extensions/revolution.extension.kenburn.min.js"></script>-->
+<!--    <script type="text/javascript" src="js/revolution/extensions/revolution.extension.layeranimation.min.js"></script>-->
+<!--    <script type="text/javascript" src="js/revolution/extensions/revolution.extension.migration.min.js"></script>-->
+<!--    <script type="text/javascript" src="js/revolution/extensions/revolution.extension.navigation.min.js"></script>-->
+<!--    <script type="text/javascript" src="js/revolution/extensions/revolution.extension.parallax.min.js"></script>-->
+<!--    <script type="text/javascript" src="js/revolution/extensions/revolution.extension.slideanims.min.js"></script>-->
+<!--    <script type="text/javascript" src="js/revolution/extensions/revolution.extension.video.min.js"></script>-->
+
+    <!-- script JS  -->
+    <script src="js/scripts.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/navbar.js"></script>
+    <!--<script src="js/chatClass.js"></script>-->
+    <link rel="stylesheet" type="text/css" href="css/styleChat.css" />
+    <script src="js/bootstrap-notify.js"></script>
+    <script src="js/mail.js"></script>
+
+<!--    <script>-->
+<!--        chatPortal("contenedor", localStorage.getItem('usuario'));-->
+<!--    </script>-->
+</body>
+
+</html>
